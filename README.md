@@ -1,86 +1,44 @@
-👤 Cadastro de Usuários — CRUD com Spring Boot
+# 🚀 User Registration API (CRUD)
 
-Projeto de API REST desenvolvido em Java com Spring Boot, focado na implementação de um CRUD completo de usuários, utilizando arquitetura em camadas e persistência de dados com JPA.
+Esta é uma API REST robusta desenvolvida para o gerenciamento de usuários. O projeto foi construído utilizando Java com o ecossistema Spring Boot, aplicando os conceitos de arquitetura em camadas e persistência de dados.
 
-O objetivo do projeto é praticar conceitos de desenvolvimento back-end, incluindo criação de endpoints REST, separação de responsabilidades, integração com banco de dados e uso do Maven.
+📑 Índice
+Sobre o Projeto
 
-📁 Estrutura do Projeto
+- Tecnologias Utilizadas
 
-cadastro-usuario/
-│
-├── .mvn/
-│   └── wrapper/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/com/limadev/cadastro_usuario/
-│   │   │   ├── business/
-│   │   │   │   └── UsuarioService.java
-│   │   │   │
-│   │   │   ├── controller/
-│   │   │   │   └── UsuarioController.java
-│   │   │   │
-│   │   │   ├── infrastructure/
-│   │   │   │   ├── entitys/
-│   │   │   │   │   └── Usuario.java
-│   │   │   │   │
-│   │   │   │   └── repository/
-│   │   │   │       └── UsuarioRepository.java
-│   │   │   │
-│   │   │   └── CadastroUsuarioApplication.java
-│   │   │
-│   │   └── resources/
-│   │       └── application.properties
-│   │
-│   └── test/
-│       └── java/com/limadev/cadastro_usuario/
-│           └── CadastroUsuarioApplicationTests.java
-│
-├── pom.xml
-└── README.md
+- Arquitetura
 
-💻 Tecnologias Utilizadas
+- Funcionalidades
 
-Java
+- Estrutura de Pastas
 
-Spring Boot
+🧐 Sobre o Projeto
 
-Spring Web
+O objetivo principal deste projeto foi consolidar conhecimentos em desenvolvimento Back-end, focando na separação de responsabilidades e na criação de endpoints eficientes. A API permite realizar todas as operações fundamentais de um sistema (Create, Read, Update, Delete), garantindo a integridade dos dados via JPA/Hibernate.
 
-Spring Data JPA
+🛠 Tecnologias Utilizadas
 
-Hibernate
+- Linguagem: Java
 
-Maven
+- Framework: Spring Boot
 
-Banco de dados relacional
+- Persistência: Spring Data JPA / Hibernate
 
-IntelliJ IDEA
+- Gerenciador de Dependências: Maven
 
+- Banco de Dados: Relacional (H2)
 
-⚙️ Funcionalidades
+- Ferramentas: IntelliJ IDEA, Postman
 
+🏛 Arquitetura
 
-Cadastro de usuários
+O projeto segue o padrão de Arquitetura em Camadas, o que facilita a manutenção, o teste e a escalabilidade do software.
 
-Listagem de usuários
+- Controller: Camada de entrada, lida com as requisições HTTP e rotas.
 
-Busca por ID
+- Service (Business): Contém a lógica de negócio e regras da aplicação.
 
-Atualização de dados
+- Infrastructure (Repository/Entity): Gerencia a comunicação com o banco de dados e define as entidades.
 
-Exclusão de usuários
-
-CRUD completo implementado via API REST.
-
-📌 Observações
-
-Projeto desenvolvido apenas como back-end (API REST).
-
-Não possui interface gráfica.
-
-Banco configurável via application.properties.
-
-Estruturado em camadas para facilitar manutenção e escalabilidade.
-
-Desenvolvido com finalidade acadêmica.
+Nota: Este projeto possui fins acadêmicos e foi desenvolvido para demonstrar habilidades técnicas em Spring Boot e arquitetura limpa.
