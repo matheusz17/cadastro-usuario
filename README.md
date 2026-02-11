@@ -1,9 +1,9 @@
 # 🚀 User Registration API (CRUD)
 
-Esta é uma API REST robusta desenvolvida para o gerenciamento de usuários. O projeto foi construído utilizando Java com o ecossistema Spring Boot, aplicando os conceitos de arquitetura em camadas e persistência de dados.
+Esta é uma API REST desenvolvida para o gerenciamento de usuários. O projeto foi construído utilizando Java com o ecossistema Spring Boot, aplicando os conceitos de arquitetura em camadas e persistência de dados.
 
-📑 Índice
-Sobre o Projeto
+## 📑 Índice
+- Sobre o Projeto
 
 - Tecnologias Utilizadas
 
@@ -11,13 +11,11 @@ Sobre o Projeto
 
 - Funcionalidades
 
-- Estrutura de Pastas
-
-🧐 Sobre o Projeto
+## **🧐 Sobre o Projeto**
 
 O objetivo principal deste projeto foi consolidar conhecimentos em desenvolvimento Back-end, focando na separação de responsabilidades e na criação de endpoints eficientes. A API permite realizar todas as operações fundamentais de um sistema (Create, Read, Update, Delete), garantindo a integridade dos dados via JPA/Hibernate.
 
-🛠 Tecnologias Utilizadas
+## **🛠 Tecnologias Utilizadas**
 
 - Linguagem: Java
 
@@ -31,7 +29,7 @@ O objetivo principal deste projeto foi consolidar conhecimentos em desenvolvimen
 
 - Ferramentas: IntelliJ IDEA, Postman
 
-🏛 Arquitetura
+## **🏛 Arquitetura**
 
 O projeto segue o padrão de Arquitetura em Camadas, o que facilita a manutenção, o teste e a escalabilidade do software.
 
@@ -41,4 +39,19 @@ O projeto segue o padrão de Arquitetura em Camadas, o que facilita a manutenç�
 
 - Infrastructure (Repository/Entity): Gerencia a comunicação com o banco de dados e define as entidades.
 
-Nota: Este projeto possui fins acadêmicos e foi desenvolvido para demonstrar habilidades técnicas em Spring Boot e arquitetura limpa.
+
+## **⚙️ Funcionalidades (Endpoints)**
+
+Abaixo, os endpoints disponíveis na API:
+
+Método | Endpoint | Descrição
+:------|----------|-----------
+Post| /usuarios | Cadastra um novo usuário.
+Get| /usuarios | Lista todos os usuários cadastrados.
+Get| /usuarios/{id} | Busca um usuário específico pelo ID
+Put| /usuarios/{id} | Atualiza os dados de um usuário existente.
+Delete| /usuarios/{id} | Remove um usuário do sistema.
+       
+
+
+**Nota: Este projeto possui fins acadêmicos e foi desenvolvido para demonstrar habilidades técnicas em Spring Boot e arquitetura limpa.**
